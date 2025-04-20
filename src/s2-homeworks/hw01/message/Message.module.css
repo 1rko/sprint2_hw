@@ -1,31 +1,72 @@
 .message {
+    margin-bottom: 30px;
+}
 
+.message:has(+ .message)  {
+    margin-bottom: 24px;
 }
 
 .imageAndText {
-
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+    height: 48px;
+    width: 48px;
 }
 
 .text {
-
+    position: relative;
+    max-width: 70%;
+    min-height: 60px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    right: 15px; /* Для хвостика */
+    background-color: #0066CC;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
 }
 
 .text:after {
-
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: inherit;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
 
 .name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
 
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 3px;
 }
 
 .messageText {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: pre-wrap;
+    color: #fff;
 }
 
 .time {
+    position: relative;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: auto; /* Выталкивает вправо */
+    width: fit-content; /* Ширина по содержимому */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
 
 }
