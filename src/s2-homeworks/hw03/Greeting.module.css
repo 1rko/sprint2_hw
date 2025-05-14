@@ -11,7 +11,6 @@
     font-weight: 400;
     font-size: 14px;
     color: #c00;
-    margin-top: 10px;
 }
 
 .input {
@@ -19,6 +18,7 @@
     border-radius: 5px;
     width: 372px;
     height: 36px;
+    margin-bottom: 10px;
 }
 
 .input:focus {
@@ -34,6 +34,7 @@
     border-radius: 5px;
     width: 372px;
     height: 36px;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -70,5 +71,4 @@
     font-weight: 500;
     font-size: 14px;
     color: #000;
-    margin-top: 10px;
 }
