@@ -1,15 +1,68 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+}
+
 .radio {
+    appearance: none;
 }
 
 .radio::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.radio::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    left: -5px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 
 .radio:checked::before {
+  /*  content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;*/
+}
+
+.radio:checked::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
 }
 
 .label {
+    display: flex;
+    gap: 13px;
+    align-items: start;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    position: relative;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.span{
+    padding-left: 18px;
 }
