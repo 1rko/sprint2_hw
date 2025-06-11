@@ -1,3 +1,7 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+}
+
 .item {
 }
 
@@ -5,19 +9,44 @@
 }
 
 .users {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+    gap:12px;
 }
 
 .container {
+    width: 606px;
 }
 
 .thead {
+    background-color: #E5E5E5;
+    height: 36px;
+    padding: 10px 10px;
+
+    font-family: var(--main-font-family), serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+td {
+    width: 50%;
+    padding: 10px 10px;
+    border-bottom: 1px solid #e5e5e5;
+
+    font-family: var(--main-font-family), serif;
 }
 
 .nameCol {
+
 }
 
 .ageCol {
+
 }
