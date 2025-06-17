@@ -29,7 +29,7 @@
     height: 36px;
     padding: 10px 10px;
 
-    font-family: var(--main-font-family), serif;
+    font-family: var(--font-family), serif;
     font-weight: 600;
     font-size: 14px;
 }
