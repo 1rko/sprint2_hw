@@ -19,5 +19,24 @@ html {
 }
 
 .select {
+    border: 1px solid #c2c2c2;
+    border-radius: 2px;
+    width: 171px;
+    height: 36px;
+    background-color: var(--background);
+    color: var(--color);
+    padding: 8px 10px;
+    text-transform: capitalize;
+}
 
+.superSelectWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.superSelectTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
