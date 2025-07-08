@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sprint2_hw/static/css/main.009fd463.css",
-    "main.js": "/sprint2_hw/static/js/main.44072e78.js",
+    "main.js": "/sprint2_hw/static/js/main.6f2dc37b.js",
     "static/js/601.95f3a534.chunk.js": "/sprint2_hw/static/js/601.95f3a534.chunk.js",
     "static/media/avatar.png": "/sprint2_hw/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/Iphone-spinner-2.gif": "/sprint2_hw/static/media/Iphone-spinner-2.d3fbaf2b81fd92c49692.gif",
@@ -12,11 +12,11 @@
     "index.html": "/sprint2_hw/index.html",
     "static/media/burger.svg": "/sprint2_hw/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
     "main.009fd463.css.map": "/sprint2_hw/static/css/main.009fd463.css.map",
-    "main.44072e78.js.map": "/sprint2_hw/static/js/main.44072e78.js.map",
+    "main.6f2dc37b.js.map": "/sprint2_hw/static/js/main.6f2dc37b.js.map",
     "601.95f3a534.chunk.js.map": "/sprint2_hw/static/js/601.95f3a534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.009fd463.css",
-    "static/js/main.44072e78.js"
+    "static/js/main.6f2dc37b.js"
   ]
 }
