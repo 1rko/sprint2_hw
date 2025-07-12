@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/sprint2_hw/static/css/main.5ce34f7a.css",
-    "main.js": "/sprint2_hw/static/js/main.c5f97e70.js",
+    "main.js": "/sprint2_hw/static/js/main.74bb3045.js",
     "static/js/601.07792971.chunk.js": "/sprint2_hw/static/js/601.07792971.chunk.js",
     "static/media/avatar.png": "/sprint2_hw/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/sprint2_hw/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
-    "static/media/error.svg": "/sprint2_hw/static/media/error.9a99652a785b87f2f448e23e5da3045d.svg",
     "static/media/500.svg": "/sprint2_hw/static/media/500.65355d1617c6a93fc93572680052f0b7.svg",
     "static/media/Iphone-spinner-2.gif": "/sprint2_hw/static/media/Iphone-spinner-2.d3fbaf2b81fd92c49692.gif",
     "static/media/400.svg": "/sprint2_hw/static/media/400.4e46e304dcfdcae89fcfb902d8863816.svg",
@@ -16,11 +15,11 @@
     "index.html": "/sprint2_hw/index.html",
     "static/media/burger.svg": "/sprint2_hw/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
     "main.5ce34f7a.css.map": "/sprint2_hw/static/css/main.5ce34f7a.css.map",
-    "main.c5f97e70.js.map": "/sprint2_hw/static/js/main.c5f97e70.js.map",
+    "main.74bb3045.js.map": "/sprint2_hw/static/js/main.74bb3045.js.map",
     "601.07792971.chunk.js.map": "/sprint2_hw/static/js/601.07792971.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ce34f7a.css",
-    "static/js/main.c5f97e70.js"
+    "static/js/main.74bb3045.js"
   ]
 }
