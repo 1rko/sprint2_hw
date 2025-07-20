@@ -1,7 +1,21 @@
+:root {
+    --second-family: "Roboto", sans-serif;
+}
+
 .tech {
 
 }
 
-.loading {
+.SDInputWrapper{
+   /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px; !* Отступ между элементами *!*/
+}
 
+.loading {
+    font-family: var(--second-family, sans-serif);
+    font-weight: 300;
+    font-size: 14px;
+    color: #4d4d4d;
 }

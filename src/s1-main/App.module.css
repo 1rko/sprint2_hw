@@ -5,7 +5,8 @@
 
 .hw {
     padding: 24px 70px 32px 70px;
-    border: 1px solid #d9d9d9;;
+    border: 1px solid #d9d9d9;
+    position: relative;
 }
 
 .hwTitle {
