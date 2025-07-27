@@ -9,6 +9,14 @@
     position: relative;
 }
 
+.hw[style*='--has-loading: true'] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(237, 234, 234, 0.24); /* Стили при наличии маркера */
+    border: 1px solid red;
+}
+
 .hwTitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
